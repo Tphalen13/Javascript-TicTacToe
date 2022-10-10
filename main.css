@@ -1,45 +1,125 @@
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    font-size:16px;
+    font-family: 'Alkalami', serif;
+    width:1300px;
+    background-color: beige;
+}
 .container{
+    display:flex ;
+    justify-content:center ;
+    align-items: center;
+    width:1000px;
+    background-color: rgba(44, 231, 44, 0.164);
+    border: yellow double 8px;
+    border-radius: 10%;
+    
 
 }
 .container .holder{
-
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-flow:column;
+    width:100%;
+    margin:0%;
+    padding:0%;
 }
 .container .holder h1{
-
+    display: flex;
+    justify-content:center;
+    width:60%;
+    margin:0%;
+    padding:0%;
+    font-size:4em;
+    font-weight:700;
+    color:yellow;
+    text-decoration: line-through rgb(44, 231, 44) 3px;
+}
+.container .holder h1 span{
+    align-items: center;
+    font-size:1.3em ;
+    font-weight: 700;
+    color:red;
+    padding: 0%;
+    margin: 0%;
 }
 .container .holder .tic-tac-toe-table{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color: yellow;
+    border: yellow solid 2px;
+    border-radius: 10%;
+    outline: rgb(44, 231, 44) double 8px;
+    width: 50%;
+    margin:0%;
+    padding-top:1%;
+    padding-bottom: 1%;
+}
+.container .holder .tic-tac-toe-table button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding:0%;
+    border:red solid 4px;
+    border-radius: 50%;
+    background-image:url(/img/2x/outline_pets_black_24dp.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:150px;
+    height:150px;
+    background-color: yellow;
+}
+.hide{
+    display: none;
+}
 
+.container .holder .tic-tac-toe-table button:hover {
+    display: block;
+    background-color: rgb(44, 231, 44);
+    color: white;
+    transform: scale(110%);
 }
-.container .holder .tic-tac-toe-table td{
+.container .holder .tic-tac-toe-table  button img{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding:0%;
+    border:red solid 4px;
+    background-color: yellow;
+    width:100%;
+}
 
-}
-.container .holder .tic-tac-toe-table .sq1{
-
-}
-.container .holder .tic-tac-toe-table .sq2{
-
-}
-.container .holder .tic-tac-toe-table .sq3{
-
-}
-.container .holder .tic-tac-toe-table .sq4{
-
-}
-.container .holder .tic-tac-toe-table .sq5{
-
-}
-.container .holder .tic-tac-toe-table .sq6{
-
-}
-.container .holder .tic-tac-toe-table .sq7{
-
-}
-.container .holder .tic-tac-toe-table .sq8{
-
-}
-.container .holder .tic-tac-toe-table .sq9{
-    
-}
 .container .holder .reset-button{
+    border:pink 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:2%;
+    font-family: 'Alkalami', serif;
+    font-size: 2em;
+    background-color: yellow;
+    border-radius: 10%;
+    border: red solid 2px;
+    font-size: ;
+    font-weight: ;
+    color: red;
+    margin:5%;
+}
+.container .holder .reset-button:hover{
+    font-family: 'Alkalami', serif;
+    font-size: 2.25em;
+    transform: scale(110%);
+    background-color: rgb(44, 231, 44);
+    border: white solid 2px;
+    border-radius: 10%;
+    color: white;
 
 }

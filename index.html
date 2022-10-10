@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkalami&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/main.css"></link>
     <title>Document</title>
 </head>
@@ -12,23 +15,24 @@
         <div class="holder">
             <h1>Tic<span>-Tac-</span>Toe!</h1>
                 <table class="tic-tac-toe-table">
-                     <tr>
-                        <td id="sq1">  </td>
-                        <td id="sq2">  </td>
-                        <td id="sq3">  </td>
+                     <tr class="row1">
+                        <td id="sq1"><button><p class="hide"><span>X OR O</span><br>Who will win?</p></button></td>
+                        <td id="sq2"><button></button></td>
+                        <td id="sq3"><button></button></td>
                      </tr>
-                      <tr>
-                        <td id="sq4">  </td>
-                        <td id="sq5">  </td>
-                        <td id="sq6">  </td>
+                      <tr class="row2">
+                        <td id="sq4"><button></button></td>
+                        <td id="sq5"><button></button></td>
+                        <td id="sq6"><button></button></td>
                     </tr>
-                    <tr>
-                        <td id="sq7">  </td>
-                        <td id="sq8">  </td>
-                        <td id="sq9">  </td>
+                    <tr class="row3">
+                        <td id="sq7"><button></button></td>
+                        <td id="sq8"><button></button></td>
+                        <td id="sq9"><button></button></td>
                     </tr>
                 </table>
-             <button class="reset-button">Clear Board</button>
+                <br>
+            <button class="reset-button">Clear Board</button>
         </div>
     </section> 
 </body>
